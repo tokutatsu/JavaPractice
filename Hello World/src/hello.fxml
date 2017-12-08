@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+
+<Label prefHeight="452.0" prefWidth="586.0" text="          Hello World!!" textAlignment="CENTER" textFill="#63d609d4" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <font>
+      <Font size="52.0" />
+   </font>
+</Label>
