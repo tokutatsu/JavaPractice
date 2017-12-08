@@ -3,13 +3,17 @@ package quiz;
 import java.util.Scanner;
 
 public class Hantei {
-	static Scanner scanner2 = new Scanner(System.in);
-	public static int NUM = 2;
+	public static int NUM = 5;
 
 	void judge(int a) {
+		Scanner scanner2 = new Scanner(System.in);
+
 		String[] seikai = new String[NUM];
 		seikai[0] = "1-";
 		seikai[1] = "1+";
+		seikai[2] = seikai[3] = "2+";
+		seikai[4] = "2-";
+		
 		String[] kaitou = new String[NUM];
 		kaitou[a] = scanner2.next();
 
